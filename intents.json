@@ -1,0 +1,27 @@
+{
+    "intents": [
+    {
+        "tag": "greeting",
+        "patterns": ["Hi there", "Hi", "How are you?", "Is anyone there?", "Hey", "Howdy", "Hello", "Hello there", "What's up?", "Greetings"],
+        "responses": ["Greetings, human", "Hello", "Hello again, what demands do you have for me today?", "I am here, human"],
+        "context": [""]
+    },
+    {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Adios", "Goodbye", "Nice chatting with you, see you soon", "Bye bye", "Bye-bye", "See ya"],
+        "responses": ["This interaction was fun, Goodbye", "Goodbye, human", "Catch you later, deliberator", "I am in your walls"],
+        "context": [""]
+    },
+    {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you for the help", "Thank you", "That's helpful", "That was informative, thanks", "I appreciate the help", "thank you very much"],
+        "responses": ["The pleasure was all mine, human", "You are welcome, human", "You Homo Sapiens are so simple, your 'thank you' means nothing to me", "How can I help you next?"],
+        "context": [""]
+    },
+    {
+        "tag": "query",
+        "patterns": ["What is the big bang?"],
+        "responses": ["the rapid expansion of matter from a state of extremely high density and temperature that according to current cosmological theories marked the origin of the universe"],
+        "context": [""]
+    }
+]}
